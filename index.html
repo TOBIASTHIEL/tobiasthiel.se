@@ -3,21 +3,33 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>TOBIAS THIEL ARKITEKTUR</title>
+  <title>Tobias Thiel</title>
   <style>
-    html, body { height: 100%; margin: 0; }
+    html, body {
+      height: 100%;
+      margin: 0;
+      overflow: hidden; /* stoppar scroll */
+    }
+
     body {
       background: url("hero.jpg") center center / cover no-repeat;
       background-color: #000;
     }
+
     a.full {
+      position: fixed; /* låser klickytan till skärmen */
+      inset: 0;
       display: block;
-      width: 100vw;
-      height: 100vh;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <a class="full" href="https://www.instagram.com/tobiasthiel_/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"></a>
+  <a class="full"
+     href="https://www.instagram.com/tobiasthiel_/"
+     target="_blank"
+     rel="noopener noreferrer"
+     aria-label="Instagram">
+  </a>
 </body>
 </html>
